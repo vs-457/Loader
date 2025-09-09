@@ -43,7 +43,7 @@ return env->NewStringUTF(
 extern "C"
 JNIEXPORT jstring JNICALL
 Java_com_zenin_activity_LoginActivity_ziplink(JNIEnv *env, jobject thiz) {
-    return env->NewStringUTF(oxorany("https://github.com/ZENIN565/YOUTUBEHELP/releases/download/YOUTUBEHELP/"));
+    return env->NewStringUTF(oxorany("https://github.com/vs-457/Loader/blob/main/Main.cpp"));
 }
 
 extern "C"
@@ -51,3 +51,4 @@ JNIEXPORT jstring JNICALL
 Java_com_zenin_activity_MainActivity_exdate(JNIEnv *env, jclass clazz) {
     return env->NewStringUTF(exdate.c_str());
 }
+
